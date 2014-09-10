@@ -37,4 +37,5 @@ function createWatcher(destDir, interval) {
   return watcher;
 }
 
-createWatcher(argv._, argv.i);
+createWatcher(argv._[0], argv.i);
+
